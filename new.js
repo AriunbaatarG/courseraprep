@@ -10,3 +10,13 @@ console.log("Hello" , "there, " , "World");
 //Hellothere, World
 //Hello there,  World
 
+var age = 10;
+var height = 190;
+if (age > 7 && height > 170) {
+    console.log(age + "old and tall" + height);
+}
+//arithmetic operators +,-,*,/,**, ++, --
+//assignment operator =, +=, -=, *=, /=, %=, **=
+//comparios operator >,<, <=, >=, ==, !=, ===, !==, ?
+//% modulas/remainder
+//logical operators &&, ||, !
