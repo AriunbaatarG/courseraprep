@@ -29,6 +29,36 @@ function addition(parametr1, parametr2) {
 addition(4, 7);
 //calling function
 
-var train2 = [r1, r2, r3, r4];
+var train2 = ["hdh", "dd", "s", "sss"];
 console.log(train2[2]);
 //arrays and accessing elements
+train2.push("jack");
+train2.pop("s");
+//built in method for arrays push and pop
+
+var storemanager = {};
+//initialize object
+var storemanager = {
+    name : "john",
+    age : 19,
+    salary : 1199,   
+};
+//can also be done like this
+storemanager.name = "john";
+storemanager.age = 19;
+storemanager.salary = 1199;
+//Dot notation = adding properties
+storemanager["name"] = "sam";
+//bracket notation = same thing but different syntax
+//dot and bracket are interchangeable
+console.log(storemanager);
+var arrOfKeys = ['speed', 'altitude', 'color'];
+var drone = {
+    speed: 100,
+    altitude: 200,
+    color: "red"
+}
+for (var i = 0; i < arrOfKeys.length; i++) {
+    console.log(drone[arrOfKeys[i]])
+}
+//bracket can evaluate expressions unlike dot
