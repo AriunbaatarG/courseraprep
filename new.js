@@ -62,3 +62,18 @@ for (var i = 0; i < arrOfKeys.length; i++) {
     console.log(drone[arrOfKeys[i]])
 }
 //bracket can evaluate expressions unlike dot
+
+//functional programming
+//oop
+//classes, constructors, objects 
+//scope - var, let, const
+//spread rest
+//DOM, events, JSON
+function scopeTest() {
+    var y = 44;
+
+    console.log(x);
+}
+
+var x = 33;
+scopeTest();
