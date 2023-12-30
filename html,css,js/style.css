@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+}
+header {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    font-size: 100 px;
+}
+nav div {
+    display: inline-flex;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    background-color: greenyellow;
+}
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+.triple {
+    border-style: groove;
+    border-radius: 10px;
+    padding-bottom: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.headertext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.withbackground {
+    background-image: url("garden.jpg");
+    margin-left: 100px;
+    margin-right: 100px;
+}
