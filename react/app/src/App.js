@@ -1,17 +1,19 @@
 import './App.css';
+import {Route, Link, Routes} from 'react-router-dom';
+import Heading from './Heading';
+import Card from './Card';
 
-function handleClick() { 
-  let randomNum = Math.floor(Math.random() * 3) + 1;
-  console.log(randomNum);
-  let userInput = prompt('type a number'); 
-  alert(`Computer number: ${randomNum}, Your guess: ${userInput}`);
-}
 function App() {
   return (
     <div className = "App">
-      <button onClick = {handleClick}>
-        Guess the number between 1 and 3
-      </button>
+      <nav>
+        <Link to="/" className="nav-item" >Homepage</Link>
+        <Link to="card" className="nav-item" >Card</Link>
+      </nav>
+      <Routes>
+        <Route path = "/" element= {<Heading/>}/>
+        <Route path = "/card" element= {<Card/>}/>
+      </Routes>
     </div>
   )
 }

@@ -1,5 +1,4 @@
-function Heading(props) {
-    return <h1>Hello {props.name}</h1>
+function Heading() {
+    return <h1>Hello word</h1>
   }
-
-  export default Heading;
+export default Heading;

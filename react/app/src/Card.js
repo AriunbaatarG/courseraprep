@@ -1,11 +1,11 @@
-function Card(props) {
+function Card() {
     return (
         <div className = "card">
             <h2>
-                {props.h2}
+                card
             </h2>
             <h3>
-                {props.h3}
+                card2
             </h3>
         </div>
     );
